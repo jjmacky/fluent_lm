@@ -1,0 +1,42 @@
+{
+    "name": "openai",
+    "api_key_env_var": "OPENAI_API_KEY",
+    "api_key": "",
+    "default_model": "gpt-4o",
+    "model_list": [
+        "gpt-4o",
+        "gpt-4o-mini",
+        "gpt-4-turbo"
+    ],
+    "mappings": {
+        "gpt-4o":"gpt-4o",
+        "gpt-4o-mini":"gpt-4o-mini",
+        "gpt-4-turbo":"gpt-4-turbo",
+
+        "4": "gpt-4o",
+        "gpt": "gpt-4o",
+        "gpt4": "gpt-4o",
+        "gpt-4": "gpt-4o",
+        "gpt 4": "gpt-4o",
+        "gpt 4o": "gpt-4o",
+        "gpt-4 o": "gpt-4o",
+        "gpt4o": "gpt-4o",
+        "gpt 4 o": "gpt-4o",
+        "gpt-4.o": "gpt-4o",
+        "gpt 4.o": "gpt-4o",
+
+        "mini": "gpt-4o-mini",
+        "gpt 4o mini": "gpt-4o-mini",
+        "gpt4o-mini": "gpt-4o-mini",
+        "gpt4o mini": "gpt-4o-mini",
+        "gpt-4o mini": "gpt-4o-mini",
+        "gpt-4 o mini": "gpt-4o-mini",
+
+        "turbo": "gpt-4-turbo",
+        "gpt 4 turbo": "gpt-4-turbo",
+        "gpt4-turbo": "gpt-4-turbo",
+        "gpt4 turbo": "gpt-4-turbo",
+        "gpt-4 turbo": "gpt-4-turbo",
+        "gpt 4-turbo": "gpt-4-turbo"
+    }
+}

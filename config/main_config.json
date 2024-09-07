@@ -1,0 +1,8 @@
+{
+    "providers": ["anthropic", "openai"],
+    "provider_config_file_names": {
+        "anthropic": "anthropic_config.json",
+        "openai": "openai_config.json"
+    },
+    "default_provider": "anthropic"
+}

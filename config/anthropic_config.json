@@ -1,0 +1,55 @@
+{
+    "name": "anthropic",
+    "api_key_env_var": "ANTHROPIC_API_KEY",
+    "api_key": "",
+    "default_model": "claude-3-5-sonnet-20240620",
+    "model_list": [
+        "claude-3-5-sonnet-20240620",
+        "claude-3-opus-20240229",
+        "claude-3-sonnet-20240229",
+        "claude-3-haiku-20240307"
+    ],
+    "mappings": {
+        "claude-3-5-sonnet-20240620": "claude-3-5-sonnet-20240620",
+        "claude-3-opus-20240229":"claude-3-opus-20240229",
+        "claude-3-sonnet-20240229":"claude-3-sonnet-20240229",
+        "claude-3-haiku-20240307":"claude-3-haiku-20240307",
+        
+        "claude": "claude-3-5-sonnet-20240620",
+        "claude3.5": "claude-3-5-sonnet-20240620",
+        "claude-3.5": "claude-3-5-sonnet-20240620",
+        "claude 3.5": "claude-3-5-sonnet-20240620",
+        "claude 3 5 sonnet": "claude-3-5-sonnet-20240620",
+        "claude-3-5": "claude-3-5-sonnet-20240620",
+        "claude 3-5": "claude-3-5-sonnet-20240620",
+        "sonnet-3.5": "claude-3-5-sonnet-20240620",
+        "sonnet 3.5": "claude-3-5-sonnet-20240620",
+        "sonnet-3-5": "claude-3-5-sonnet-20240620",
+        "sonnet 3-5": "claude-3-5-sonnet-20240620",
+        "sonnet": "claude-3-5-sonnet-20240620",
+        "claude-sonnet": "claude-3-5-sonnet-20240620",
+        "sonnet3.5": "claude-3-5-sonnet-20240620",
+
+        "opus": "claude-3-opus-20240229",
+        "claude-3-opus": "claude-3-opus-20240229",
+        "claude 3 opus": "claude-3-opus-20240229",
+        "opus-3": "claude-3-opus-20240229",
+        "opus 3": "claude-3-opus-20240229",
+        "claude3opus": "claude-3-opus-20240229",
+        "claude 3": "claude-3-opus-20240229",
+        "claude-3": "claude-3-opus-20240229",
+
+        "claude3sonnet": "claude-3-sonnet-20240229",
+        "claude 3 sonnet": "claude-3-sonnet-20240229",
+        "claude-3-sonnet": "claude-3-sonnet-20240229",
+        "sonnet3": "claude-3-sonnet-20240229",
+        "sonnet-3": "claude-3-sonnet-20240229",
+
+        "haiku": "claude-3-haiku-20240307",
+        "claude3haiku": "claude-3-haiku-20240307",
+        "claude 3 haiku": "claude-3-haiku-20240307",
+        "claude-3-haiku": "claude-3-haiku-20240307",
+        "haiku3": "claude-3-haiku-20240307",
+        "haiku-3": "claude-3-haiku-20240307"
+    }
+}
